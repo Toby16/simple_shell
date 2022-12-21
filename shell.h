@@ -15,6 +15,7 @@
 
 /* Environ global variable */
 extern char **environ;
+
 /* Function Prototypes */
 char *readline(void);
 char **splitline(char *line);
@@ -31,4 +32,4 @@ int _strlen(char *s);
 int _strncmp(char *str1, char *str2, int n);
 
 
-#endif /* SHELL_H */
+#endif
